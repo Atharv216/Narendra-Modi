@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narendra Modi</title>
+  <script src="script.js"></script>
+</head>
+<body>
+<div id="home" class="container1">
+        <ul id="nav" class="nav">
+        <a href="index.html"><li class="list">Home</li> </a>      
+        <a href="index2.html"><li class="list">Work</li> </a>        
+        <a href="index3.html"><li class="list">Videos</li> </a>
+        <a href="index4.html"><li class="list">Achievments</li> </a>
+        </ul>
+        <div id="space"></div>
+        <h1 id="h1">Videos</h1>
+        <h3>Videos related to Narendra Modi.</h3>
+        <div class="videos">
+            <iframe width="886" height="480" src="https://www.youtube.com/embed/31lhIqo84Sk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br>
+            <iframe width="886" height="480" src="https://www.youtube.com/embed/mc7C2vTM0xY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div id="space2"></div>
+</div>
+<style>
+/*  html{*/
+/*    scroll-behavior: smooth;*/
+/*}*/
+.container1 {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    overflow: hidden;  
+    width: 100vw; 
+    height: 100%;
+    background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+    overflow-x: hidden;
+/*    scroll-behavior: smooth;*/
+    background-blend-mode: darken;
+}
+
+.videos {
+/*    text-align: center;*/
+/*    color: white;*/
+    position: relative;
+    top: 400px;
+    left: 220px;
+    font-size: 20px;
+    width: 700px;
+/*    color:rgb(247, 247, 247);*/
+}
+h1{
+    position: relative;
+    color: rgb(253, 251, 251);
+    top: 180px;
+    left:470px;
+    font-size: 55px;
+    /* background-color: rgba(240, 248, 255, 0.246); */
+}
+h3{
+    position: relative;
+    color: rgb(250, 246, 246);
+    top: 160px;
+    left: 420px;
+    font-size: 25px;
+}
+.list {
+    list-style: none;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    background-color: black;
+    color: white;
+    margin: 10px;
+}
+.list:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.nav{
+position: fixed;
+        background-color: black;
+    color: white;
+    width: 1290px;
+    z-index: 9;
+}
+.space{
+    height: 50px;
+    width: 1260px;
+    background: transparent;
+    top: 800px;
+}
+@media all and (max-width: 1262px){
+    body{
+        text-align: center;
+    }
+ .container1{
+     background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+     background-size: cover;
+     background-repeat: no-repeat;
+     overflow-y: scroll;
+     overflow-x: hidden;
+ }
+ .container2{
+     left: 250px; 
+ }
+ h1{
+     left: 40px; 
+ }
+ h3{
+     left: 50px; 
+ }
+}@media all and (max-width: 1102px){
+  body{
+    text-align: center;
+}
+.container1{
+ background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+.container2{
+ left: 130px; 
+}
+h1{
+ left: 20px; 
+}
+h3{
+ left: 30px; 
+}
+ } 
+ @media all and (max-width: 900px){
+  body{
+    text-align: center;
+}
+.container1{
+ background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+.container2{
+ left: 100px; 
+}
+h1{
+ left: 20px; 
+}
+h3{
+ left: 30px; 
+}
+ } @media all and (max-width: 845px){
+    *  body{
+      text-align: center;
+  }
+  .container1{
+   background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow-y: scroll;
+   overflow-x: hidden;
+  }
+  .container2{
+   left: 100px; 
+   width: 650px;
+  }
+  h1{
+   left: 20px; 
+  }
+  h3{
+   left: 30px; 
+  }
+} @media all and (max-width: 630px){
+  body{
+    text-align: center;
+}
+.container1{
+ background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+.container2{
+ left: 70px; 
+ width: 450px;
+}
+h1{
+ left: 0px; 
+}
+h3{
+ left: 10px; 
+}
+ .nav{
+     width: 650px;
+     position: fixed;
+     top: 0px;
+     /* bottom: 1px; */
+     left: 0px;
+ }
+ }  @media all and (max-width: 560px) and (min-width: 310px){
+  body{
+    text-align: center;
+}
+.container1{
+ background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow-y: scroll;
+ overflow-x: hidden;
+}
+.container2{
+ left: 40px; 
+ width: 350px;
+}
+h1{
+ left: 0px; 
+}
+h3{
+ left:40px; 
+ width: 370px;
+
+}
+ .nav{
+     width: 650px;
+     position: fixed;
+     top: 0px;
+     /* bottom: 1px; */
+     left: 0px;
+ }
+ }
+ @media all and (max-width: 380px){
+  body{
+    text-align: center;
+}
+.container1{
+ background: url(bg.jpg) rgba(0, 0, 0, 0.5);
+ background-size: cover;
+ background-repeat: no-repeat;
+ overflow-y: scroll;
+ overflow-x: hidden;
+ scrollbar-color: black;
+}
+.container2{
+ left: 40px; 
+ width: 270px;
+}
+h1{
+ left: 0px; 
+}
+h3{
+ left:40px; 
+ width: 270px;
+
+}
+ .nav{
+     width: 650px;
+     position: fixed;
+     top: 0px;
+     /* bottom: 1px; */
+     left: 0px;
+ }
+ }
+
+</style>
+</body>
+</html>
+
